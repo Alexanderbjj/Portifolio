@@ -177,29 +177,50 @@ footer .flex {
     justify-content: space-between;
 }
 
-footer .btn-social{
-width: 60px;
-height: 60px;
-border-radius: 50%;
-border: none;
-background-color: #eef3ee;
-filter:contrast();
-font-size: 22px;
-cursor: pointer;
-margin: 0 5px;
-transition: 2s;
-text-decoration: none;
+footer .btn-social {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #eef3ee;
+    filter: contrast();
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 2s;
+    text-decoration: none;
+}
+
+.menu-desktop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.menu-desktop ul li {
+    float: left;
+}
+
+.menu-desktop ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
 
 /*------------------------------------------------------------------------------------------------menu mobile-------------------------------*/
 @media screen and (max-width: 1020px) {
+
     /* classes gerais*/
     .flex {
         flex-direction: column-reverse;
     }
 
     /* cabecalho*/
-    .menu-desktop .btn-contato{
+    .menu-desktop .btn-contato {
         display: none;
     }
 
@@ -207,21 +228,21 @@ text-decoration: none;
 
     section.topo-do-site .flex {
         gap: 40px;
-    
+
     }
 
-    section .topo-do-site{
+    section .topo-do-site {
         padding: 20px 8%
     }
-   
-    .topo-do-site .img-topo-site img{
+
+    .topo-do-site .img-topo-site img {
         width: 120%;
     }
 
-    .topo-do-site h1{
+    .topo-do-site h1 {
         font-size: 30px;
     }
-    }
+}
 
 /*-----------------------Sobre-------------------------------------------------------*/
 .Sobre-pagin h1 {
@@ -240,9 +261,10 @@ text-decoration: none;
     margin: 20px 0;
     text-align: left;
     padding: 10px 4%;
-        
+
 
 }
+
 /*-----------------------curriulum-------------------------------------------------------*/
 .curriculum-pagin h1 {
     color: #fff;
@@ -250,7 +272,7 @@ text-decoration: none;
     line-height: 37px;
     justify-content: center;
     text-align: center;
-    
+
 
 }
 
@@ -261,7 +283,7 @@ text-decoration: none;
     margin: 5px 10;
     text-align: left;
     padding: 10px 4%;
-        
+
 
 }
 
@@ -282,7 +304,7 @@ text-decoration: none;
     margin: 20px 0;
     text-align: left;
     padding: 10px 4%;
-        
-        
+
+
 
 }
